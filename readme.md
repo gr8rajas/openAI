@@ -1,4 +1,5 @@
-`Create a virtual environment using the command python -m venv my_venv_name.
+***
+Create a virtual environment using the command python -m venv my_venv_name.
 Activate the virtual environment by executing source my_venv_name/bin/activate.
 Install the required libraries and run the code snippets from the lessons within the virtual environment.
 
@@ -10,7 +11,7 @@ pip install selenium==4.15.2
 
 
 To deactivate the virtual environment, simply run deactivate.
-`
+***
 
 LLM's Issue - Hallucination--(Use Retreiver to get data from Web to Mitigate)
 Efficient retrievers are built using embedding models that map texts to vectors. These vectors are then stored in specialized databases called vector stores.
@@ -22,14 +23,14 @@ On the other hand, Chat Models offer a more structured API and are better suited
 
 _The LangChain’s Chat API offers several advantages:
 
-Context preservation: By maintaining a list of messages in the conversation, the API ensures that the context is preserved throughout the interaction. This allows the GPT-4 model to generate relevant and coherent responses based on the provided information.
+**Context preservation**: By maintaining a list of messages in the conversation, the API ensures that the context is preserved throughout the interaction. This allows the GPT-4 model to generate relevant and coherent responses based on the provided information.
 
-Memory: The class’s message history acts as a short-term memory for the chatbot, allowing it to refer back to previous messages and provide more accurate and contextual responses.
+**Memory**: The class’s message history acts as a short-term memory for the chatbot, allowing it to refer back to previous messages and provide more accurate and contextual responses.
 
-Modularity: The combination of MessageTemplate and ChatOpenAI classes offers a modular approach to designing conversation applications. This makes it easier to develop, maintain, and extend the functionality of the chatbot.
+**Modularity**: The combination of MessageTemplate and ChatOpenAI classes offers a modular approach to designing conversation applications. This makes it easier to develop, maintain, and extend the functionality of the chatbot.
 Improved performance: GPT-4, as an advanced language model, is more adept at understanding complex prompts and generating better responses than its predecessors. 
 
-Flexibility: The Chat API can be adapted to different domains and tasks, making it a versatile solution for various chatbot applications._ 
+**Flexibility**: The Chat API can be adapted to different domains and tasks, making it a versatile solution for various chatbot applications._ 
 
 ## Popular LLM models accessible to LangChain via API
 
